@@ -10,10 +10,13 @@ stampa un messaggio appropriato sull’esito del controllo.
 
 2) Definisco una variabile in cui salvo l'input dell'utente
 
-3) Definisco una variabile esito nello scope globale a cui assegno il valore 'Accesso negato'
+3) Definisco una variabile esito nello scope globale a cui assegno il valore false
 
 4) Definisco un ciclo for che attraversa l'array e confronto l'input dell'utente con ogni elemento dell'array 
 
-5) Stabilisco delle condizioni: se l'elemento della lista nella posizione index è === all'input dell'utente allora alla variabile esito assegno il valore 'Accesso consentito'
+5) Stabilisco delle condizioni: 
+    se l'elemento della lista nella posizione index è === all'input dell'utente allora alla variabile esito assegno il valore true
 
-6) Stampo l'esito in console
+6) Stampo l'esito in console con delle condizioni: 
+    se l'esito è true stampo 'Accesso consentito'
+    se l'esito è false stampo 'Accesso negato'

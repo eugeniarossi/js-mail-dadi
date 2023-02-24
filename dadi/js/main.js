@@ -25,5 +25,6 @@ playButton.addEventListener('click',
             console.log('Hai perso');
             risultato.innerText = ('Hai perso');
         }
-});
+    }
+);
 
