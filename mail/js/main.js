@@ -44,6 +44,7 @@ inputButton.addEventListener('click', function () {
 // Aggiungo un evento onclick al reset button
 resetButton.addEventListener('click', function() {
     // Azzero il value dell'input email e del risultato mostrato
+    outcome = false;
     emailInput.value = '';
     outcomeShown.innerText = '';
 })
