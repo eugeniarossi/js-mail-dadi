@@ -9,4 +9,5 @@ Stabilire il vincitore, in base a chi fa il punteggio più alto.
 
 2) Stabilisco delle condizioni in cui confronto il valore delle due variabili: 
     - Se la variabile del giocatore è più grande stampo hai vinto
+    - Se le variabili sono uguali stampo pari
     - Altrimenti stampo hai perso  
