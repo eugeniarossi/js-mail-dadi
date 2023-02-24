@@ -3,7 +3,7 @@
 // Definisco una variabile in cui salvo il play button
 const playButton = document.getElementById('play-button');
 // Definisco una variabile in cui salvo il div in cui mostrerò il risultato
-let risultato = document.getElementById('risultato');
+let result = document.getElementById('result');
 
 // Aggiungo un evento onclick al play button per far partire il gioco
 playButton.addEventListener('click', 
@@ -17,13 +17,13 @@ playButton.addEventListener('click',
         // Stabilisco delle condizioni in cui confronto le due variabili
         if (player > computer) {
             console.log('Hai vinto');
-            risultato.innerText = ('Hai vinto');
+            result.innerText = ('Hai vinto');
         } else if (player === computer) {
             console.log('Pari');
-            risultato.innerText = ('Pari');
+            result.innerText = ('Pari');
         } else {
             console.log('Hai perso');
-            risultato.innerText = ('Hai perso');
+            result.innerText = ('Hai perso');
         }
     }
 );
